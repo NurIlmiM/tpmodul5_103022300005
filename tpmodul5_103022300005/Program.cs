@@ -1,3 +1,4 @@
+
 ﻿//using System;
 
 //public class HaloGeneric
@@ -33,6 +34,7 @@ public class DataGeneric<T>
     public void PrintData()
     {
         Console.WriteLine($"Data yang tersimpan adalah: {data}");
+
     }
 }
 
@@ -40,8 +42,10 @@ class Program
 {
     static void Main()
     {
+
         DataGeneric<string> nimData = new DataGeneric<string>("103022300005");
 
         nimData.PrintData();
+
     }
 }
